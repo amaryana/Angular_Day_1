@@ -1,13 +1,14 @@
+body {
+  background-color: white;
+}
+
 .home-page-header {
     display: flex;
-    justify-content: space-between;
-    padding-top: 20px;
     text-align: center;
+    justify-content: center;
 }
 
 .logo {
-    margin-left: 44%;
-    margin-right: 44%;
     height: 60px;
     width: 146px;
     text-align: center;
@@ -17,8 +18,9 @@
   height: 50px;
   background-color: white;
   padding-left: 100px;
+  text-align: center;
 }
-.nav ul {
+/*.nav ul {
   display: flex;
   float: left;
   top: 20px;
@@ -29,7 +31,7 @@
   font-family: 'Open Sans', sans-serif;
   margin-top: 20px;
   display: visible;
-}
+}*/
 .menu {
     margin-right: 20px;
     display: flex;
@@ -122,8 +124,6 @@ p {
 .jedi-content {
   text-align: center;
   width: 30%;
-  height: 230px;
-  background-color: white;
   border: 1px solid gray;
   margin: 40px 10px;
   padding: 0 1%;
@@ -193,16 +193,6 @@ hr {
   justify-content: space-around;
   flex-wrap: wrap;
 }
-.jedi-content {
-  text-align: center;
-  width: 30%;
-  height: 230px;
-  background-color: white;
-  border: 1px solid gray;
-  margin: 40px 10px;
-  padding: 0 1%;
-  float: left;
-}
 
 .the-way {
   color: black;
@@ -268,7 +258,7 @@ li {
 footer {
   width: 100%;
   background: #2d3033;
-  height: 250px;
+  height: 125px;
 }
 .footer-left {
   height: 100%;
@@ -276,14 +266,29 @@ footer {
   position: relative;
   top: 20px;
 }
-@media (min-width: 800px) {
+@media(min-width:375px) {
+  .jedi-content {
+    width: 100%;
+  }
+  .jedi-content-title {
+    font-size: 20px;
+  }
+}
+@media(min-width:580px) {
+  .jedi-content {
+    width: 30%;
+  }
+}
+
+
+/*@media (min-width: 800px) {
   .nav ul {
     display: none;
   }
   .jedi-content {
     flex-direction: column;
   }
-}
+}*/
 
 /*@media(min-width: 700px) {
    .home-page-intro-box {

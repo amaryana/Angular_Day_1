@@ -1,0 +1,22 @@
+{
+  "name": "js-jedi",
+  "version": "1.0.0",
+  "description": "This directory structure is much harder to read and understand from the get go. A newcomer to Angular may be completely turned off by this complex approach, and that is why you see tutorials and examples in Angular following the simpler directory structure found in examples earlier. Let’s dive into the directory structure above and see what’s going on here.",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amaryana/Angular_Day_1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amaryana/Angular_Day_1/issues"
+  },
+  "homepage": "https://github.com/amaryana/Angular_Day_1#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
