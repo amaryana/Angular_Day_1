@@ -3,7 +3,8 @@ angular.module('jsjedi', ['ui.router'])
 
         $stateProvider
             .state('home', {
-                url: '/',
+                url: "/",
+                controller: '',
                 templateUrl: '/app/components/home/homeView.html'
             })
             $urlRouterProvider.otherwise("/")
